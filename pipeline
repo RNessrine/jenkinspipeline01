@@ -2,13 +2,15 @@ pipeline
 {
 agent any
 stages ('Hello'){
-steps
+steps{
 echo 'Hello world'
 }
-
+}
 stages ('Build'){
-steps
+steps {
 echo 'Dev'
+
+}
 }
 }
 
